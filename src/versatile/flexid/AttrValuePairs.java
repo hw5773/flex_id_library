@@ -11,11 +11,11 @@ public class AttrValuePairs {
         table = new Hashtable<String, String>();
     }
 
-    void addAttrValuePair(String attr, String value) {
+    public void addAttrValuePair(String attr, String value) {
         table.put(attr, value);
     }
 
-    String getValueByAttr(String attr) {
+    public String getValueByAttr(String attr) {
         return table.get(attr);
     }
 

@@ -30,6 +30,11 @@ public class FlexID implements FlexIDInterface {
         this.priv = null;
     }
 
+    // TODO: Should implement this function
+    public static FlexID generateDeviceID() {
+        return new FlexID();
+    }
+
     public byte[] getIdentity() {
         return identity;
     }
